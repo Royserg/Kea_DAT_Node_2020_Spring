@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/pages/upload/upload.css">
+
+<h3 class='title'>Upload</h3>
+
+<form action="/videos" method="post" enctype="multipart/form-data" id="uploadForm" name="videoUpload">
+  <div>
+    <input placeholder="Title" name="title" />
+  </div>
+  <div>
+    <select name="category">
+      <option value="animals">Animals</option>
+      <option value="automobiles">Automobiles</option>
+      <option value="food">Food</option>
+      <option value="games">Games</option>
+      <option value="nature">Nature</option>
+      <option value="science">Science</option>
+      <option value="scifi">Sci-Fi</option>
+      <option value="sports">Sports</option>
+    </select>
+  </div>
+  <div>
+    <textarea placeholder="Description" name="description" rows=15></textarea>
+  </div>
+  <div>
+    <input id="fileInput" type="file" name="video" accept="video/*" />
+  </div>
+  <div>
+    <input placeholder="Tags" name="tags" />
+  </div>
+  <button type="submit">Submit</button>
+</form>
+
+<script src="/pages/upload/upload.js"></script>

@@ -1,0 +1,29 @@
+body {
+  background-color: cornsilk;
+}
+
+footer small {
+  font-size: 0.8em;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 10%;
+}
+
+.upload-link {
+  float: right;
+}
+
+.video-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  min-height: calc(100vh - 110px);
+}
+
+footer {
+  height: 10px;
+}
